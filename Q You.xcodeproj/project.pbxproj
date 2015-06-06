@@ -7,14 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA9382AE9847935715C8D5F1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE72D0FDD97C7F5C53363A77 /* libPods.a */; };
 		E415427A1AAB775000D000C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E41542791AAB775000D000C7 /* main.m */; };
 		E415427D1AAB775000D000C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E415427C1AAB775000D000C7 /* AppDelegate.m */; };
 		E41542801AAB775000D000C7 /* Q_You.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E415427E1AAB775000D000C7 /* Q_You.xcdatamodeld */; };
-		E41542831AAB775000D000C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41542821AAB775000D000C7 /* ViewController.m */; };
 		E41542861AAB775000D000C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E41542841AAB775000D000C7 /* Main.storyboard */; };
 		E41542881AAB775000D000C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E41542871AAB775000D000C7 /* Images.xcassets */; };
 		E415428B1AAB775000D000C7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E41542891AAB775000D000C7 /* LaunchScreen.xib */; };
 		E41542971AAB775000D000C7 /* Q_YouTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E41542961AAB775000D000C7 /* Q_YouTests.m */; };
+		E41542A21AAB7F2A00D000C7 /* PSStartOffViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41542A11AAB7F2A00D000C7 /* PSStartOffViewController.m */; };
+		E41542A51AAB822F00D000C7 /* PSMyQuestionCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41542A41AAB822F00D000C7 /* PSMyQuestionCategoryViewController.m */; };
+		E41542A91AAB88C600D000C7 /* PSAnswerStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41542A81AAB88C600D000C7 /* PSAnswerStartViewController.m */; };
+		E41542AE1AAB902F00D000C7 /* PSAnswerDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41542AD1AAB902F00D000C7 /* PSAnswerDetailsViewController.m */; };
+		E41542B11AABA6D700D000C7 /* PSAskQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41542B01AABA6D700D000C7 /* PSAskQuestionViewController.m */; };
+		E41542CB1AABDB4000D000C7 /* PSLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41542CA1AABDB4000D000C7 /* PSLoginViewController.m */; };
+		E41542CE1AABDDEB00D000C7 /* PSSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41542CD1AABDDEB00D000C7 /* PSSignInViewController.m */; };
+		E41F06191AE2431700089A6D /* PSPlayAskQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41F06181AE2431700089A6D /* PSPlayAskQuestionViewController.m */; };
+		E41F061C1AE2C3B200089A6D /* PSBuyAskQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41F061B1AE2C3B200089A6D /* PSBuyAskQuestionViewController.m */; };
+		E41F062D1AE2CBD100089A6D /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = E41F061D1AE2CBD100089A6D /* Icon-40.png */; };
+		E41F062E1AE2CBD100089A6D /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E41F061E1AE2CBD100089A6D /* Icon-40@2x.png */; };
+		E41F062F1AE2CBD100089A6D /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = E41F061F1AE2CBD100089A6D /* Icon-60.png */; };
+		E41F06301AE2CBD100089A6D /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E41F06201AE2CBD100089A6D /* Icon-60@2x.png */; };
+		E41F06311AE2CBD100089A6D /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = E41F06211AE2CBD100089A6D /* Icon-72.png */; };
+		E41F06321AE2CBD100089A6D /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E41F06221AE2CBD100089A6D /* Icon-72@2x.png */; };
+		E41F06331AE2CBD100089A6D /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = E41F06231AE2CBD100089A6D /* Icon-76.png */; };
+		E41F06341AE2CBD100089A6D /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E41F06241AE2CBD100089A6D /* Icon-76@2x.png */; };
+		E41F06351AE2CBD100089A6D /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = E41F06251AE2CBD100089A6D /* Icon-Small-50.png */; };
+		E41F06361AE2CBD100089A6D /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E41F06261AE2CBD100089A6D /* Icon-Small-50@2x.png */; };
+		E41F06371AE2CBD100089A6D /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = E41F06271AE2CBD100089A6D /* Icon-Small.png */; };
+		E41F06381AE2CBD100089A6D /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E41F06281AE2CBD100089A6D /* Icon-Small@2x.png */; };
+		E41F06391AE2CBD100089A6D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E41F06291AE2CBD100089A6D /* Icon.png */; };
+		E41F063A1AE2CBD100089A6D /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E41F062A1AE2CBD100089A6D /* Icon@2x.png */; };
+		E41F063B1AE2CBD100089A6D /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = E41F062B1AE2CBD100089A6D /* iTunesArtwork.png */; };
+		E41F063C1AE2CBD100089A6D /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E41F062C1AE2CBD100089A6D /* iTunesArtwork@2x.png */; };
+		E4CA045A1B23AD1D0003EA74 /* PSAnswerReviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CA04591B23AD1D0003EA74 /* PSAnswerReviewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +54,68 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		59C44618D6832692FE392F29 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BE72D0FDD97C7F5C53363A77 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E41542741AAB774F00D000C7 /* Q You.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Q You.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E41542781AAB775000D000C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E41542791AAB775000D000C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E415427B1AAB775000D000C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E415427C1AAB775000D000C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E415427F1AAB775000D000C7 /* Q_You.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Q_You.xcdatamodel; sourceTree = "<group>"; };
-		E41542811AAB775000D000C7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E41542821AAB775000D000C7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E41542851AAB775000D000C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E41542871AAB775000D000C7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E415428A1AAB775000D000C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E41542901AAB775000D000C7 /* Q YouTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Q YouTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E41542951AAB775000D000C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E41542961AAB775000D000C7 /* Q_YouTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q_YouTests.m; sourceTree = "<group>"; };
+		E41542A01AAB7F2A00D000C7 /* PSStartOffViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSStartOffViewController.h; sourceTree = "<group>"; };
+		E41542A11AAB7F2A00D000C7 /* PSStartOffViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSStartOffViewController.m; sourceTree = "<group>"; };
+		E41542A31AAB822F00D000C7 /* PSMyQuestionCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSMyQuestionCategoryViewController.h; sourceTree = "<group>"; };
+		E41542A41AAB822F00D000C7 /* PSMyQuestionCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSMyQuestionCategoryViewController.m; sourceTree = "<group>"; };
+		E41542A71AAB88C600D000C7 /* PSAnswerStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAnswerStartViewController.h; sourceTree = "<group>"; };
+		E41542A81AAB88C600D000C7 /* PSAnswerStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAnswerStartViewController.m; sourceTree = "<group>"; };
+		E41542AC1AAB902F00D000C7 /* PSAnswerDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAnswerDetailsViewController.h; sourceTree = "<group>"; };
+		E41542AD1AAB902F00D000C7 /* PSAnswerDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAnswerDetailsViewController.m; sourceTree = "<group>"; };
+		E41542AF1AABA6D700D000C7 /* PSAskQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAskQuestionViewController.h; sourceTree = "<group>"; };
+		E41542B01AABA6D700D000C7 /* PSAskQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAskQuestionViewController.m; sourceTree = "<group>"; };
+		E41542B21AABD11900D000C7 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		E41542B41AABD12200D000C7 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		E41542B61AABD1E600D000C7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		E41542B81AABD1ED00D000C7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E41542BA1AABD1F500D000C7 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		E41542BC1AABD1FA00D000C7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E41542BE1AABD20100D000C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E41542C01AABD20900D000C7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E41542C21AABD21100D000C7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		E41542C41AABD21700D000C7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E41542C61AABD21E00D000C7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E41542C91AABDB4000D000C7 /* PSLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSLoginViewController.h; sourceTree = "<group>"; };
+		E41542CA1AABDB4000D000C7 /* PSLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSLoginViewController.m; sourceTree = "<group>"; };
+		E41542CC1AABDDEB00D000C7 /* PSSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSSignInViewController.h; sourceTree = "<group>"; };
+		E41542CD1AABDDEB00D000C7 /* PSSignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSSignInViewController.m; sourceTree = "<group>"; };
+		E41F06171AE2431700089A6D /* PSPlayAskQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPlayAskQuestionViewController.h; sourceTree = "<group>"; };
+		E41F06181AE2431700089A6D /* PSPlayAskQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPlayAskQuestionViewController.m; sourceTree = "<group>"; };
+		E41F061A1AE2C3B200089A6D /* PSBuyAskQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSBuyAskQuestionViewController.h; sourceTree = "<group>"; };
+		E41F061B1AE2C3B200089A6D /* PSBuyAskQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSBuyAskQuestionViewController.m; sourceTree = "<group>"; };
+		E41F061D1AE2CBD100089A6D /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
+		E41F061E1AE2CBD100089A6D /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
+		E41F061F1AE2CBD100089A6D /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
+		E41F06201AE2CBD100089A6D /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		E41F06211AE2CBD100089A6D /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		E41F06221AE2CBD100089A6D /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		E41F06231AE2CBD100089A6D /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		E41F06241AE2CBD100089A6D /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		E41F06251AE2CBD100089A6D /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		E41F06261AE2CBD100089A6D /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		E41F06271AE2CBD100089A6D /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		E41F06281AE2CBD100089A6D /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		E41F06291AE2CBD100089A6D /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		E41F062A1AE2CBD100089A6D /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		E41F062B1AE2CBD100089A6D /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		E41F062C1AE2CBD100089A6D /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		E4CA04581B23AD1D0003EA74 /* PSAnswerReviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAnswerReviewViewController.h; sourceTree = "<group>"; };
+		E4CA04591B23AD1D0003EA74 /* PSAnswerReviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAnswerReviewViewController.m; sourceTree = "<group>"; };
+		FE7C3E1A234214AA907F0433 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA9382AE9847935715C8D5F1 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +137,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD4ACE5324B0C556F0C98203 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59C44618D6832692FE392F29 /* Pods.debug.xcconfig */,
+				FE7C3E1A234214AA907F0433 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E415426B1AAB774F00D000C7 = {
 			isa = PBXGroup;
 			children = (
 				E41542761AAB774F00D000C7 /* Q You */,
 				E41542931AAB775000D000C7 /* Q YouTests */,
 				E41542751AAB774F00D000C7 /* Products */,
+				DD4ACE5324B0C556F0C98203 /* Pods */,
+				FD84C06BD93FBB85F41A77D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,11 +169,12 @@
 		E41542761AAB774F00D000C7 /* Q You */ = {
 			isa = PBXGroup;
 			children = (
-				E415427B1AAB775000D000C7 /* AppDelegate.h */,
-				E415427C1AAB775000D000C7 /* AppDelegate.m */,
-				E41542811AAB775000D000C7 /* ViewController.h */,
-				E41542821AAB775000D000C7 /* ViewController.m */,
-				E41542841AAB775000D000C7 /* Main.storyboard */,
+				E41542C81AABDB3000D000C7 /* Login */,
+				E41542AB1AAB88EF00D000C7 /* Initialization */,
+				E41542A61AAB823F00D000C7 /* Questions */,
+				E41542AA1AAB88CE00D000C7 /* Answers */,
+				E41542A01AAB7F2A00D000C7 /* PSStartOffViewController.h */,
+				E41542A11AAB7F2A00D000C7 /* PSStartOffViewController.m */,
 				E41542871AAB775000D000C7 /* Images.xcassets */,
 				E41542891AAB775000D000C7 /* LaunchScreen.xib */,
 				E415427E1AAB775000D000C7 /* Q_You.xcdatamodeld */,
@@ -99,6 +186,7 @@
 		E41542771AAB775000D000C7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E41F063D1AE2CBE000089A6D /* images */,
 				E41542781AAB775000D000C7 /* Info.plist */,
 				E41542791AAB775000D000C7 /* main.m */,
 			);
@@ -122,6 +210,97 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E41542A61AAB823F00D000C7 /* Questions */ = {
+			isa = PBXGroup;
+			children = (
+				E41542A31AAB822F00D000C7 /* PSMyQuestionCategoryViewController.h */,
+				E41542A41AAB822F00D000C7 /* PSMyQuestionCategoryViewController.m */,
+				E41542AF1AABA6D700D000C7 /* PSAskQuestionViewController.h */,
+				E41542B01AABA6D700D000C7 /* PSAskQuestionViewController.m */,
+				E41F06171AE2431700089A6D /* PSPlayAskQuestionViewController.h */,
+				E41F06181AE2431700089A6D /* PSPlayAskQuestionViewController.m */,
+				E41F061A1AE2C3B200089A6D /* PSBuyAskQuestionViewController.h */,
+				E41F061B1AE2C3B200089A6D /* PSBuyAskQuestionViewController.m */,
+			);
+			name = Questions;
+			sourceTree = "<group>";
+		};
+		E41542AA1AAB88CE00D000C7 /* Answers */ = {
+			isa = PBXGroup;
+			children = (
+				E41542A71AAB88C600D000C7 /* PSAnswerStartViewController.h */,
+				E41542A81AAB88C600D000C7 /* PSAnswerStartViewController.m */,
+				E41542AC1AAB902F00D000C7 /* PSAnswerDetailsViewController.h */,
+				E41542AD1AAB902F00D000C7 /* PSAnswerDetailsViewController.m */,
+				E4CA04581B23AD1D0003EA74 /* PSAnswerReviewViewController.h */,
+				E4CA04591B23AD1D0003EA74 /* PSAnswerReviewViewController.m */,
+			);
+			name = Answers;
+			sourceTree = "<group>";
+		};
+		E41542AB1AAB88EF00D000C7 /* Initialization */ = {
+			isa = PBXGroup;
+			children = (
+				E41542841AAB775000D000C7 /* Main.storyboard */,
+				E415427B1AAB775000D000C7 /* AppDelegate.h */,
+				E415427C1AAB775000D000C7 /* AppDelegate.m */,
+			);
+			name = Initialization;
+			sourceTree = "<group>";
+		};
+		E41542C81AABDB3000D000C7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E41542C91AABDB4000D000C7 /* PSLoginViewController.h */,
+				E41542CA1AABDB4000D000C7 /* PSLoginViewController.m */,
+				E41542CC1AABDDEB00D000C7 /* PSSignInViewController.h */,
+				E41542CD1AABDDEB00D000C7 /* PSSignInViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		E41F063D1AE2CBE000089A6D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E41F061D1AE2CBD100089A6D /* Icon-40.png */,
+				E41F061E1AE2CBD100089A6D /* Icon-40@2x.png */,
+				E41F061F1AE2CBD100089A6D /* Icon-60.png */,
+				E41F06201AE2CBD100089A6D /* Icon-60@2x.png */,
+				E41F06211AE2CBD100089A6D /* Icon-72.png */,
+				E41F06221AE2CBD100089A6D /* Icon-72@2x.png */,
+				E41F06231AE2CBD100089A6D /* Icon-76.png */,
+				E41F06241AE2CBD100089A6D /* Icon-76@2x.png */,
+				E41F06251AE2CBD100089A6D /* Icon-Small-50.png */,
+				E41F06261AE2CBD100089A6D /* Icon-Small-50@2x.png */,
+				E41F06271AE2CBD100089A6D /* Icon-Small.png */,
+				E41F06281AE2CBD100089A6D /* Icon-Small@2x.png */,
+				E41F06291AE2CBD100089A6D /* Icon.png */,
+				E41F062A1AE2CBD100089A6D /* Icon@2x.png */,
+				E41F062B1AE2CBD100089A6D /* iTunesArtwork.png */,
+				E41F062C1AE2CBD100089A6D /* iTunesArtwork@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		FD84C06BD93FBB85F41A77D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E41542C61AABD21E00D000C7 /* CoreLocation.framework */,
+				E41542C41AABD21700D000C7 /* Security.framework */,
+				E41542C21AABD21100D000C7 /* MobileCoreServices.framework */,
+				E41542C01AABD20900D000C7 /* MapKit.framework */,
+				E41542BE1AABD20100D000C7 /* CoreGraphics.framework */,
+				E41542BC1AABD1FA00D000C7 /* QuartzCore.framework */,
+				E41542BA1AABD1F500D000C7 /* AdSupport.framework */,
+				E41542B81AABD1ED00D000C7 /* AudioToolbox.framework */,
+				E41542B61AABD1E600D000C7 /* CFNetwork.framework */,
+				E41542B41AABD12200D000C7 /* Accounts.framework */,
+				E41542B21AABD11900D000C7 /* Social.framework */,
+				BE72D0FDD97C7F5C53363A77 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +308,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E415429A1AAB775000D000C7 /* Build configuration list for PBXNativeTarget "Q You" */;
 			buildPhases = (
+				1E3FEF30F15E18E64B712A5B /* Check Pods Manifest.lock */,
 				E41542701AAB774F00D000C7 /* Sources */,
 				E41542711AAB774F00D000C7 /* Frameworks */,
 				E41542721AAB774F00D000C7 /* Resources */,
+				47CE60E5A6B3FFAE9B539333 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,9 +383,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E41F062D1AE2CBD100089A6D /* Icon-40.png in Resources */,
 				E41542861AAB775000D000C7 /* Main.storyboard in Resources */,
+				E41F06321AE2CBD100089A6D /* Icon-72@2x.png in Resources */,
+				E41F06381AE2CBD100089A6D /* Icon-Small@2x.png in Resources */,
+				E41F06391AE2CBD100089A6D /* Icon.png in Resources */,
+				E41F062F1AE2CBD100089A6D /* Icon-60.png in Resources */,
+				E41F063B1AE2CBD100089A6D /* iTunesArtwork.png in Resources */,
+				E41F06301AE2CBD100089A6D /* Icon-60@2x.png in Resources */,
+				E41F06341AE2CBD100089A6D /* Icon-76@2x.png in Resources */,
 				E415428B1AAB775000D000C7 /* LaunchScreen.xib in Resources */,
+				E41F06311AE2CBD100089A6D /* Icon-72.png in Resources */,
+				E41F06371AE2CBD100089A6D /* Icon-Small.png in Resources */,
+				E41F06331AE2CBD100089A6D /* Icon-76.png in Resources */,
+				E41F063C1AE2CBD100089A6D /* iTunesArtwork@2x.png in Resources */,
+				E41F06361AE2CBD100089A6D /* Icon-Small-50@2x.png in Resources */,
+				E41F063A1AE2CBD100089A6D /* Icon@2x.png in Resources */,
+				E41F06351AE2CBD100089A6D /* Icon-Small-50.png in Resources */,
 				E41542881AAB775000D000C7 /* Images.xcassets in Resources */,
+				E41F062E1AE2CBD100089A6D /* Icon-40@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,15 +414,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E3FEF30F15E18E64B712A5B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		47CE60E5A6B3FFAE9B539333 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E41542701AAB774F00D000C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E41F061C1AE2C3B200089A6D /* PSBuyAskQuestionViewController.m in Sources */,
+				E41542A91AAB88C600D000C7 /* PSAnswerStartViewController.m in Sources */,
+				E41542B11AABA6D700D000C7 /* PSAskQuestionViewController.m in Sources */,
+				E41542A21AAB7F2A00D000C7 /* PSStartOffViewController.m in Sources */,
+				E41542CE1AABDDEB00D000C7 /* PSSignInViewController.m in Sources */,
+				E41F06191AE2431700089A6D /* PSPlayAskQuestionViewController.m in Sources */,
+				E41542CB1AABDB4000D000C7 /* PSLoginViewController.m in Sources */,
 				E41542801AAB775000D000C7 /* Q_You.xcdatamodeld in Sources */,
+				E41542A51AAB822F00D000C7 /* PSMyQuestionCategoryViewController.m in Sources */,
 				E415427D1AAB775000D000C7 /* AppDelegate.m in Sources */,
-				E41542831AAB775000D000C7 /* ViewController.m in Sources */,
+				E4CA045A1B23AD1D0003EA74 /* PSAnswerReviewViewController.m in Sources */,
 				E415427A1AAB775000D000C7 /* main.m in Sources */,
+				E41542AE1AAB902F00D000C7 /* PSAnswerDetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,21 +584,23 @@
 		};
 		E415429B1AAB775000D000C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59C44618D6832692FE392F29 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Q You/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Q You";
 			};
 			name = Debug;
 		};
 		E415429C1AAB775000D000C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE7C3E1A234214AA907F0433 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Q You/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Q You";
 			};
 			name = Release;
 		};
@@ -377,7 +618,7 @@
 				);
 				INFOPLIST_FILE = "Q YouTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Q YouTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Q You.app/Q You";
 			};
 			name = Debug;
@@ -392,7 +633,7 @@
 				);
 				INFOPLIST_FILE = "Q YouTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Q YouTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Q You.app/Q You";
 			};
 			name = Release;
@@ -416,6 +657,7 @@
 				E415429C1AAB775000D000C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E415429D1AAB775000D000C7 /* Build configuration list for PBXNativeTarget "Q YouTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +666,7 @@
 				E415429F1AAB775000D000C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
