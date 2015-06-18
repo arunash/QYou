@@ -19,7 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    NSLog(@"question to answer is: %@", _questionToAnswer);
+    //NSLog(@"question to answer is: %@", _questionToAnswer);
     
     self.answerCostSlider.value = [[NSUserDefaults standardUserDefaults]integerForKey:@"answerCost"];
     [self.answerCostSlider addTarget:self action:@selector(valueChanged:) forControlEvents:UIControlEventValueChanged];

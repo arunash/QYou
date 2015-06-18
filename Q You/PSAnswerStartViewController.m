@@ -160,9 +160,9 @@
     if([segue.identifier isEqualToString:@"AnswerStartToAnswerReviewSegue"]){
         PSAnswerReviewViewController *answerReviewVC = segue.destinationViewController;
         
-        //NSIndexPath *indexPath = sender;
+        NSIndexPath *indexPath = sender;
         answerReviewVC.selectedUser = _selectedUser;
-        answerReviewVC.answerToReview = _currentAnswerToReview;
+        answerReviewVC.answerToReview = [self.mainResponseArray objectAtIndex:indexPath.row];
         
     }
 }

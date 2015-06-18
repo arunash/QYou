@@ -151,7 +151,8 @@
     PFObject *questionObject = self.mainQuestionsArray [indexPath.row];
     cell.textLabel.text = questionObject[@"QuestionText"];
     _selectedQuestionToAnswer = questionObject;
-    //NSLog(@"the text label is: %@", cell.textLabel.text);
+    
+    //brings out the loaded objects and current index is the last one (could be the current problem)
     
     return cell;
     
@@ -177,11 +178,7 @@
         PSAnswerStartViewController *answerStartVC = segue.destinationViewController;
         
         NSIndexPath *indexPath = sender;
-
-        //NSLog(@"indexpath is: %@", indexPath);
-        //answerStartVC.questionToAnswer = [self.mainQuestionsArray objectAtIndex:indexPath.row];
-        answerStartVC.questionToAnswer = _selectedQuestionToAnswer;
-        //NSLog(@"%@", _selectedQuestionToAnswer);
+        answerStartVC.questionToAnswer = [self.mainQuestionsArray objectAtIndex:indexPath.row];
         answerStartVC.selectedUser = [PFUser currentUser];
 
     

@@ -43,6 +43,9 @@
     
     self.myQuestionCostLabel.text = [NSString stringWithFormat:@"%i", (int)self.myQuestionCostSlider.value];
     
+    //[_myQuestionLocationTextField resignFirstResponder];
+    
+
     
 }
 
@@ -51,15 +54,6 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 - (IBAction)myQuestionPostButton:(UIButton *)sender {
     
@@ -70,6 +64,7 @@
     [newQuestion setObject:self.myQuestionDateTimeTextField.text forKey:@"questionDate"];
     [newQuestion setObject:[[NSNumberFormatter new] numberFromString:self.myQuestionCostLabel.text] forKey:@"questionCost"];
     [newQuestion setObject:@"Eat" forKey:@"QuestionType"];
+    
     
     [newQuestion saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         if (!error){
@@ -111,6 +106,56 @@
     self.myQuestionDateTimeTextField.text = [NSString stringWithFormat:@"%@", formattedDateString];
     
 }
+
+//- (BOOL)textFieldShouldReturn:(UITextField *)textField
+//{
+//    NSLog(@"inside text field dismiss");
+//    [_myQuestionLocationTextField resignFirstResponder];
+//    return YES;
+//}
+
+//
+//NSInteger stringToInt(NSString *string) {
+//    return [string integerValue];
+//}
+
+
+//- (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text
+//{
+//    if([text isEqualToString:@"\n"]) {
+//        [textView resignFirstResponder];
+//        return NO;
+//    }
+//    return YES;
+//}
+
+-(BOOL) textFieldShouldReturn: (UITextField *) textField {
+    [textField resignFirstResponder];
+    return YES;
+}
+
+- (void)textFieldDidBeginEditing:(UITextField *)textField {
+    self.myQuestionLocationTextField = textField;
+}
+
+- (void)resignOnTap:(id)iSender {
+    [self.myQuestionLocationTextField resignFirstResponder];
+}
+
+//- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+//    
+//    UITouch *touch = [[event allTouches] anyObject];
+//    if ([_myQuestionLocationTextField isFirstResponder] && [touch view] != _myQuestionLocationTextField) {
+//        [_myQuestionLocationTextField resignFirstResponder];
+//    }
+//    [super touchesBegan:touches withEvent:event];
+//}
+
+//- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+//    NSLog(@"touchesBegan:withEvent:");
+//    [self.myQuestionText endEditing:YES];
+//    [super touchesBegan:touches withEvent:event];
+//}
 
 
 @end

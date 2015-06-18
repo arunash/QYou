@@ -18,9 +18,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    NSLog(@"current user: %@", _selectedUser);
+    //NSLog(@"current user: %@", _selectedUser);
     
-    NSLog(@"current answer to review: %@", _answerToReview);
+    //NSLog(@"current answer to review: %@", _answerToReview);
     
     [self loadViewDetails];
     
